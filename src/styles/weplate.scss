@@ -1,0 +1,225 @@
+.weplate {
+  color: #ffffff;
+  .head {
+    display: flex;
+    justify-content: flex-end;
+    padding: 140px 130px 0;
+    margin-bottom: 100px;
+  }
+  .subtitle {
+    padding-left: 30%;
+    font-size: 18px;
+    text-align: left;
+  }
+  header {
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+  }
+  .img_container {
+    padding: 0 6%;
+    display: flex;
+    // flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    .img1 {
+      // width: 50%;
+      padding-bottom: 80px;
+      img {
+        width: 100%;
+      }
+    }
+    .img2 {
+      padding-bottom: 80px;
+      img {
+        width: 100%;
+      }
+    }
+    .img3 {
+      // width: 50%;
+      padding-bottom: 80px;
+      img {
+        width: 100%;
+      }
+    }
+    .img4 {
+      padding: 0 18px;
+      padding-bottom: 80px;
+      img {
+        width: 100%;
+      }
+    }
+    .img5 {
+      // width: 50%;
+      padding-bottom: 80px;
+      img {
+        width: 100%;
+      }
+    }
+    .img6 {
+      img {
+        width: 100%;
+      }
+    }
+    .flex_box {
+      display: flex;
+    }
+  }
+  video {
+    width: 90%;
+    padding: 0 5%;
+  }
+  .skills {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 1290px) {
+  .weplate {
+    .head {
+      padding: 140px 100px 0;
+    }
+    .subtitle {
+      padding-left: 18%;
+      font-size: 18px;
+      text-align: left;
+    }
+    .img_container {
+      padding: 0 7%;
+      justify-content: center;
+      .img1 {
+        padding-right: 4%;
+        padding-bottom: 80px;
+      }
+      .img2 {
+        padding-bottom: 80px;
+      }
+      .img3 {
+        padding-right: 4%;
+        padding-bottom: 80px;
+      }
+      .img4 {
+        padding-bottom: 80px;
+      }
+      .img5 {
+        padding-right: 4%;
+        padding-bottom: 80px;
+      }
+      .img6 {
+        padding-bottom: 80px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 900px) {
+  .weplate {
+    .head {
+      padding: 140px 100px 0;
+    }
+    .subtitle {
+      padding-left: 16%;
+    }
+    .img_container {
+      padding: 0 7%;
+      justify-content: center;
+      .img1 {
+        padding-right: 2%;
+        padding-bottom: 80px;
+      }
+      .img2 {
+        padding-bottom: 80px;
+      }
+      .img3 {
+        padding-right: 2%;
+        padding-bottom: 80px;
+      }
+      .img4 {
+        padding: 0;
+        padding-bottom: 80px;
+      }
+      .img5 {
+        padding-right: 2%;
+        padding-bottom: 80px;
+      }
+      .img6 {
+        padding-bottom: 80px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 790px) {
+  .weplate {
+    .head {
+      padding: 140px 100px 0;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .subtitle {
+      padding: 0;
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 14px;
+    }
+    .img_container {
+      padding: 0 7%;
+      justify-content: center;
+      .img1 {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 80px;
+      }
+      .img2 {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 80px;
+      }
+      .img3 {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 80px;
+      }
+      .img4 {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 80px;
+      }
+      .img5 {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 80px;
+      }
+      .img6 {
+        width: 100%;
+        padding-right: 0;
+      }
+    }
+    .skills {
+      font-size: 14px;
+    }
+  }
+}
+@media only screen and (max-width: 414px) {
+  .weplate {
+    .head {
+      padding: 140px 40px 0;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .subtitle {
+      padding: 0;
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 14px;
+    }
+    .skills {
+      font-size: 10px;
+    }
+  }
+}
