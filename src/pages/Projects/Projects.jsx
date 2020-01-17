@@ -8,7 +8,7 @@ const Projects = () => {
     <Layout>
       <div className="projects">
         <header>
-          <Link to="/">
+          <Link to="/portfolio">
             <a rel="noreferrer noopener" title="양성호 닷컴">
               양성호 닷컴
             </a>
