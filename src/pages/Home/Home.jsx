@@ -12,7 +12,7 @@ const Home = props => {
             <header>양성호 닷컴</header>
           </div>
           <div className="subtitle wrap">
-            <main>PRO Front End Web Developer</main>
+            <main>Front End Web Developer</main>
           </div>
           <div className="project wrap">
             <Link to="/portfolio/projects">Projects</Link>
@@ -39,12 +39,13 @@ const Home = props => {
               <i className="fab fa-youtube"></i>
             </a>
             <a
+              className="blog"
               href="https://khsi12345.github.io/"
               rel="noreferrer noopener"
               target="_blank"
               title="blog"
             >
-              <i className="fas fa-blog"></i>
+              Blog
             </a>
           </p>
         </div>
