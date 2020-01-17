@@ -21,12 +21,12 @@ const Weplate = () => {
           </div>
         </header>
         <main className="img_container">
-          <LazyLoad placeholder="loading..." once="true">
+          <LazyLoad placeholder="loading..." once={true}>
             <div className="img1">
               <img alt="망고플레이트 메인 페이지" src={img1}></img>
             </div>
           </LazyLoad>
-          <LazyLoad placeholder="loading..." once="true">
+          <LazyLoad placeholder="loading..." once={true}>
             <div className="img3">
               <img alt="망고플레이트 디테일 페이지 상단 화면" src={img3}></img>
             </div>
