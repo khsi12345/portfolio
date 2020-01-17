@@ -1,4 +1,5 @@
 import React from "react";
+import LazyLoad from "react-lazyload";
 import Layout from "components/Layout";
 import img1 from "images/team_dash.png";
 import img2 from "images/team_profile.png";
@@ -21,27 +22,41 @@ const TeamEvery = () => {
           </div>
         </header>
         <main className="img_container">
-          <div className="img5">
-            <img alt="웜 로그인 페이지" src={img5}></img>
-          </div>
-          <div className="img8">
-            <img alt="웜 캠페인 페이지" src={img8}></img>
-          </div>
-          <div className="img4">
-            <img alt="웜 어드민 페이지" src={img4}></img>
-          </div>
-          <div className="img6">
-            <img alt="웜 디스커버 페이지" src={img6}></img>
-          </div>
-          <div className="img1">
-            <img alt="팀 에브리웨어 대시보드 페이지" src={img1}></img>
-          </div>
-          <div className="img2">
-            <img alt="팀 에브리웨어 프로필 페이지" src={img2}></img>
-          </div>
-          <div className="img3">
-            <img alt="팀 에브리웨어 결제 페이지" src={img3}></img>
-          </div>
+          <LazyLoad>
+            <div className="img5">
+              <img alt="웜 로그인 페이지" src={img5}></img>
+            </div>
+          </LazyLoad>
+          <LazyLoad>
+            <div className="img8">
+              <img alt="웜 캠페인 페이지" src={img8}></img>
+            </div>
+          </LazyLoad>
+          <LazyLoad>
+            <div className="img4">
+              <img alt="웜 어드민 페이지" src={img4}></img>
+            </div>
+          </LazyLoad>
+          <LazyLoad>
+            <div className="img6">
+              <img alt="웜 디스커버 페이지" src={img6}></img>
+            </div>
+          </LazyLoad>
+          <LazyLoad>
+            <div className="img1">
+              <img alt="팀 에브리웨어 대시보드 페이지" src={img1}></img>
+            </div>
+          </LazyLoad>
+          <LazyLoad>
+            <div className="img2">
+              <img alt="팀 에브리웨어 프로필 페이지" src={img2}></img>
+            </div>
+          </LazyLoad>
+          <LazyLoad>
+            <div className="img3">
+              <img alt="팀 에브리웨어 결제 페이지" src={img3}></img>
+            </div>
+          </LazyLoad>
         </main>
         <p className="skills">
           사용 스킬: REACT, NEXT.JS, SASS, RESPONSIVE WEB, HIGHCHARTS, I'M PORT

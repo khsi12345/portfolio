@@ -1,4 +1,5 @@
 import React from "react";
+import LazyLoad from "react-lazyload";
 import Layout from "components/Layout";
 import img1 from "images/bnb메인.png";
 import img2 from "images/매거진.png";
@@ -25,48 +26,75 @@ const WeRBnb = () => {
           </div>
         </header>
         <main className="img_container">
-          <div className="img1">
-            <img alt="스테이폴리오 메인 페이지" src={img1}></img>
-          </div>
-          <div className="img2">
-            <img alt="스테이폴리오 매거진 페이지" src={img2}></img>
-          </div>
-          <div className="img3">
-            <img alt="스테이폴리오 어바웃 페이지" src={img3}></img>
-          </div>
-          <div className="img4">
-            <img alt="스테이폴리오 픽 페이지" src={img4}></img>
-          </div>
-          <div className="img5">
-            <img alt="스테이폴리오 픽 디테일 페이지" src={img5}></img>
-          </div>
-          <div className="img10">
-            <img alt="스테이폴리오 부킹 페이지" src={img10}></img>
-          </div>
+          <LazyLoad>
+            <div className="img1">
+              <img alt="스테이폴리오 메인 페이지" src={img1}></img>
+            </div>
+          </LazyLoad>
+          <LazyLoad>
+            <div className="img2">
+              <img alt="스테이폴리오 매거진 페이지" src={img2}></img>
+            </div>
+          </LazyLoad>
+          <LazyLoad>
+            <div className="img3">
+              <img alt="스테이폴리오 어바웃 페이지" src={img3}></img>
+            </div>
+          </LazyLoad>
+          <LazyLoad>
+            <div className="img4">
+              <img alt="스테이폴리오 픽 페이지" src={img4}></img>
+            </div>
+          </LazyLoad>
+          <LazyLoad>
+            <div className="img5">
+              <img alt="스테이폴리오 픽 디테일 페이지" src={img5}></img>
+            </div>
+          </LazyLoad>
+          <LazyLoad>
+            <div className="img10">
+              <img alt="스테이폴리오 부킹 페이지" src={img10}></img>
+            </div>
+          </LazyLoad>
           <div className="flex_box">
-            <div className="img8">
-              <img alt="스테이폴리오 픽 페이지 반응형" src={img8}></img>
-            </div>
-            <div className="img9">
-              <img alt="스테이폴리오 픽 디테일 페이지 반응형" src={img9}></img>
-            </div>
-            <div className="img11">
-              <img alt="스테이폴리오 부킹 페이지 반응형" src={img11}></img>
-            </div>
-            <div className="img7">
-              <img alt="스테이폴리오 매거진 페이지 반응형" src={img7}></img>
-            </div>
-            <div className="img6">
-              <img alt="스테이폴리오 메인 페이지 반응형" src={img6}></img>
-            </div>
+            <LazyLoad>
+              <div className="img8">
+                <img alt="스테이폴리오 픽 페이지 반응형" src={img8}></img>
+              </div>
+            </LazyLoad>
+            <LazyLoad>
+              <div className="img9">
+                <img
+                  alt="스테이폴리오 픽 디테일 페이지 반응형"
+                  src={img9}
+                ></img>
+              </div>
+            </LazyLoad>
+            <LazyLoad>
+              <div className="img11">
+                <img alt="스테이폴리오 부킹 페이지 반응형" src={img11}></img>
+              </div>
+            </LazyLoad>
+            <LazyLoad>
+              <div className="img7">
+                <img alt="스테이폴리오 매거진 페이지 반응형" src={img7}></img>
+              </div>
+            </LazyLoad>
+            <LazyLoad>
+              <div className="img6">
+                <img alt="스테이폴리오 메인 페이지 반응형" src={img6}></img>
+              </div>
+            </LazyLoad>
           </div>
         </main>
-        <video controls>
-          <source
-            src="https://stayfolio.s3.ap-northeast-2.amazonaws.com/werbnb-02.mp4"
-            type="video/mp4"
-          ></source>
-        </video>
+        <LazyLoad>
+          <video controls>
+            <source
+              src="https://stayfolio.s3.ap-northeast-2.amazonaws.com/werbnb-02.mp4"
+              type="video/mp4"
+            ></source>
+          </video>
+        </LazyLoad>
         <p className="skills">
           사용 스킬: REACT, STYLED-COMPONENT, SASS, RESPONSIVE WEB, AXIOS,
           REACT-HELMET, GIT, AWS EC2, REACT-RESPONSIVE-CAROUSEL

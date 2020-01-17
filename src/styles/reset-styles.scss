@@ -2,8 +2,10 @@ html,
 body {
   height: 100%;
 }
-#__next {
-  height: 100%;
+@font-face {
+  font-family: "JalnanOTF";
+  src: url("./JalnanOTF.otf") format("embedded-opentype"),
+    url("./JalnanOTF.otf") format("opentype");
 }
 
 html,
@@ -84,6 +86,7 @@ a {
   vertical-align: baseline;
   background: transparent;
   font-weight: normal;
+  font-family: "NanumSquare, sans-serif;";
   letter-spacing: 1px;
   // text-decoration: none;
 }
@@ -100,7 +103,7 @@ a {
 ​ body {
   line-height: 1;
 }
-​ article,
+​article,
 aside,
 details,
 figcaption,
