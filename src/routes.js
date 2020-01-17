@@ -12,11 +12,27 @@ const Routes = () => {
     <Router>
       <Switch>
         <Route exact path="/portfolio" component={Home}></Route>
-        <Route exact path="/projects" component={Projects}></Route>
-        <Route exact path="/projects/weplate" component={Weplate}></Route>
-        <Route exact path="/projects/we-r-bnb" component={Werbnb}></Route>
-        <Route exact path="/projects/team-every" component={TeamEvery}></Route>
-        <Route exact path="/projects/sauce-live" component={SauceLive}></Route>
+        <Route exact path="/portfolio/projects" component={Projects}></Route>
+        <Route
+          exact
+          path="/portfolio/projects/weplate"
+          component={Weplate}
+        ></Route>
+        <Route
+          exact
+          path="/portfolio/projects/we-r-bnb"
+          component={Werbnb}
+        ></Route>
+        <Route
+          exact
+          path="/portfolio/projects/team-every"
+          component={TeamEvery}
+        ></Route>
+        <Route
+          exact
+          path="/portfolio/projects/sauce-live"
+          component={SauceLive}
+        ></Route>
       </Switch>
     </Router>
   );
