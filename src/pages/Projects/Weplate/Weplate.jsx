@@ -20,6 +20,20 @@ const Weplate = () => {
             <p>믿을만한 맛집을 소개해주는 프로젝트</p>
           </div>
         </header>
+        <p className="skills">
+          github: &nbsp;
+          <a
+            className="github"
+            href="https://github.com/khsi12345/weplate-frontend"
+            rel="noreferrer noopener"
+            target="_blank"
+            title="github"
+          >
+            https://github.com/khsi12345/weplate-frontend
+          </a>
+          <br />
+          사용 스킬: REACT, SASS, RESPONSIVE WEB, GIT, AWS EC2
+        </p>
         <main className="img_container">
           <LazyLoad>
             <div className="img1">
@@ -65,9 +79,6 @@ const Weplate = () => {
             <source src="https://stayfolio.s3.ap-northeast-2.amazonaws.com/weplate.mov"></source>
           </video>
         </LazyLoad>
-        <p className="skills">
-          사용 스킬: REACT, SASS, RESPONSIVE WEB, GIT, AWS EC2
-        </p>
       </div>
     </Layout>
   );

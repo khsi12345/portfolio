@@ -21,6 +21,9 @@ const TeamEvery = () => {
             <p>외주 프로젝트</p>
           </div>
         </header>
+        <p className="skills">
+          사용 스킬: REACT, NEXT.JS, SASS, RESPONSIVE WEB, HIGHCHARTS, I'M PORT
+        </p>
         <main className="img_container">
           <LazyLoad>
             <div className="img5">
@@ -58,9 +61,6 @@ const TeamEvery = () => {
             </div>
           </LazyLoad>
         </main>
-        <p className="skills">
-          사용 스킬: REACT, NEXT.JS, SASS, RESPONSIVE WEB, HIGHCHARTS, I'M PORT
-        </p>
       </div>
     </Layout>
   );

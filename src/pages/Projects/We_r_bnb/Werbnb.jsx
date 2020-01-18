@@ -25,6 +25,21 @@ const WeRBnb = () => {
             <p>좋은 숙소를 소개해주는 프로젝트</p>
           </div>
         </header>
+        <p className="skills">
+          github: &nbsp;
+          <a
+            className="github"
+            href="https://github.com/khsi12345/stayfolio-frontend"
+            rel="noreferrer noopener"
+            target="_blank"
+            title="github"
+          >
+            https://github.com/khsi12345/stayfolio-frontend
+          </a>
+          <br />
+          사용 스킬: REACT, STYLED-COMPONENT, SASS, RESPONSIVE WEB, AXIOS,
+          REACT-HELMET, GIT, AWS EC2, REACT-RESPONSIVE-CAROUSEL
+        </p>
         <main className="img_container">
           <LazyLoad>
             <div className="img1">
@@ -95,10 +110,6 @@ const WeRBnb = () => {
             ></source>
           </video>
         </LazyLoad>
-        <p className="skills">
-          사용 스킬: REACT, STYLED-COMPONENT, SASS, RESPONSIVE WEB, AXIOS,
-          REACT-HELMET, GIT, AWS EC2, REACT-RESPONSIVE-CAROUSEL
-        </p>
       </div>
     </Layout>
   );
