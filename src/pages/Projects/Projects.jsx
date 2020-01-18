@@ -8,7 +8,7 @@ const Projects = () => {
     <Layout>
       <div className="projects">
         <header>
-          <Link to="/portfolio">
+          <Link to="/">
             <a rel="noreferrer noopener" title="양성호 닷컴">
               양성호 닷컴
             </a>
@@ -17,21 +17,21 @@ const Projects = () => {
         <main className="main_contents">
           Project List
           <article>
-            <Link to="/portfolio/projects/weplate">
+            <Link to="/projects/weplate">
               <a className="pulse" rel="noreferrer noopener" title="WEPLATE">
                 WEPLATE
               </a>
             </Link>
           </article>
           <article>
-            <Link to="/portfolio/projects/we-r-bnb">
+            <Link to="/projects/we-r-bnb">
               <a className="pulse" rel="noreferrer noopener" title="WE_R_BNB">
                 WE_R_BNB
               </a>
             </Link>
           </article>
           <article>
-            <Link to="/portfolio/projects/team-every">
+            <Link to="/projects/team-every">
               <a
                 className="pulse"
                 rel="noreferrer noopener"
@@ -42,7 +42,7 @@ const Projects = () => {
             </Link>
           </article>
           <article>
-            <Link to="/portfolio/projects/sauce-live">
+            <Link to="/projects/sauce-live">
               <a className="pulse" rel="noreferrer noopener" title="SAUCE LIVE">
                 SAUCE LIVE
               </a>

@@ -15,7 +15,7 @@ const Home = props => {
             <main>Front End Web Developer</main>
           </div>
           <div className="project wrap">
-            <Link to="/portfolio/projects">Projects</Link>
+            <Link to="/projects">Projects</Link>
           </div>
           <div>
             <p className="mail wrap">khsi6237@gmail.com</p>
