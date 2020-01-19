@@ -10,13 +10,11 @@ const SauceLive = () => {
         <header className="head">
           SAUCE LIVE
           <div className="subtitle">
-            <p>파트너 백 오피스</p>
-            <p>프로젝트 진행</p>
+            <p>파트너 백 오피스 프로젝트</p>
           </div>
         </header>
         <p className="skills">
-          사용 스킬: REACT, TYPESCRIPT, SASS, AXIOS, REACT-HELMET, GIT, JENKINS,
-          ANT-DESIGN
+          REACT, TYPESCRIPT, SASS, AXIOS, REACT-HELMET, GIT, JENKINS, ANT-DESIGN
         </p>
         <LazyLoad>
           <video controls>

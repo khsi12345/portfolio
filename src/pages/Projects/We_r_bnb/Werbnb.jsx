@@ -37,8 +37,8 @@ const WeRBnb = () => {
             https://github.com/khsi12345/stayfolio-frontend
           </a>
           <br />
-          사용 스킬: REACT, STYLED-COMPONENT, SASS, RESPONSIVE WEB, AXIOS,
-          REACT-HELMET, GIT, AWS EC2, REACT-RESPONSIVE-CAROUSEL
+          REACT, STYLED-COMPONENT, SASS, RESPONSIVE WEB, AXIOS, REACT-HELMET,
+          GIT, AWS EC2, REACT-RESPONSIVE-CAROUSEL
         </p>
         <main className="img_container">
           <LazyLoad>

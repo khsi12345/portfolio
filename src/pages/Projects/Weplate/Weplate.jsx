@@ -32,7 +32,7 @@ const Weplate = () => {
             https://github.com/khsi12345/weplate-frontend
           </a>
           <br />
-          사용 스킬: REACT, SASS, RESPONSIVE WEB, GIT, AWS EC2
+          REACT, SASS, RESPONSIVE WEB, GIT, AWS EC2
         </p>
         <main className="img_container">
           <LazyLoad>

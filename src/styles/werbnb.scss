@@ -180,6 +180,92 @@
       padding-bottom: 40px;
       margin-top: 100px;
       text-align: center;
+      font-size: 14px;
+      .github {
+        display: inline-block;
+        margin-bottom: 20px;
+        color: #ffffff;
+        font-size: 10px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 414px) {
+  .we_r_bnb {
+    .head {
+      margin-bottom: 50px;
+      padding-top: 50px;
+      display: flex;
+      flex-direction: column;
+      font-size: 20px;
+    }
+    .subtitle {
+      padding-top: 50px;
+      font-size: 14px;
+    }
+    .img_container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .img1 {
+        padding-bottom: 40px;
+        img {
+          width: 100%;
+        }
+      }
+      .img2 {
+        padding-bottom: 40px;
+        img {
+          width: 100%;
+        }
+      }
+      .img3 {
+        padding-bottom: 40px;
+        img {
+          width: 100%;
+        }
+      }
+      .img4 {
+        padding-bottom: 40px;
+        img {
+          width: 100%;
+        }
+      }
+      .img5 {
+        padding-bottom: 40px;
+        img {
+          width: 100%;
+        }
+      }
+      .img6 {
+        padding-bottom: 40px;
+      }
+      .img7 {
+        padding-bottom: 40px;
+      }
+      .img8 {
+        padding-bottom: 40px;
+      }
+      .img9 {
+        padding-bottom: 40px;
+      }
+      .img10 {
+        padding-bottom: 40px;
+        img {
+          width: 100%;
+        }
+      }
+      .img11 {
+        padding-bottom: 40px;
+      }
+    }
+    .flex_box {
+      justify-content: center;
+    }
+    .skills {
+      padding-bottom: 40px;
+      margin-top: 50px;
+      text-align: center;
       font-size: 10px;
       .github {
         display: inline-block;

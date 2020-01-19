@@ -22,7 +22,7 @@ const TeamEvery = () => {
           </div>
         </header>
         <p className="skills">
-          사용 스킬: REACT, NEXT.JS, SASS, RESPONSIVE WEB, HIGHCHARTS, I'M PORT
+          REACT, NEXT.JS, SASS, RESPONSIVE WEB, HIGHCHARTS, IAMPORT
         </p>
         <main className="img_container">
           <LazyLoad>

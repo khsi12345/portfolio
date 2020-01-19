@@ -99,21 +99,18 @@
       padding: 0 7%;
       justify-content: center;
       .img1 {
-        padding-right: 4%;
         padding-bottom: 80px;
       }
       .img2 {
         padding-bottom: 80px;
       }
       .img3 {
-        padding-right: 4%;
         padding-bottom: 80px;
       }
       .img4 {
         padding-bottom: 80px;
       }
       .img5 {
-        padding-right: 4%;
         padding-bottom: 80px;
       }
       .img6 {
@@ -204,6 +201,7 @@
       .img6 {
         width: 100%;
         padding-right: 0;
+        padding-bottom: 80px;
       }
     }
     .skills {
@@ -221,9 +219,11 @@
 @media only screen and (max-width: 414px) {
   .weplate {
     .head {
-      padding: 140px 40px 0;
+      margin-bottom: 50px;
+      padding: 50px 40px 0;
       flex-direction: column;
       justify-content: center;
+      font-size: 20px;
     }
     .subtitle {
       padding: 0;
@@ -233,7 +233,42 @@
       align-items: center;
       font-size: 14px;
     }
+    .img_container {
+      padding: 0 7%;
+      justify-content: center;
+      .img1 {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 40px;
+      }
+      .img2 {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 40px;
+      }
+      .img3 {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 40px;
+      }
+      .img4 {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 40px;
+      }
+      .img5 {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 40px;
+      }
+      .img6 {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 40px;
+      }
+    }
     .skills {
+      margin-top: 50px;
       padding-bottom: 40px;
       font-size: 10px;
       .github {
