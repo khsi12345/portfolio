@@ -1,0 +1,58 @@
+.project-item {
+  width: 100%;
+  padding: 10px 0;
+  .img-box {
+    width: 100%;
+    height: 175px;
+    img {
+      width: 90%;
+      height: 100%;
+    }
+  }
+  a {
+    margin: 20px 0;
+  }
+  .subtitle {
+    display: flex;
+    padding: 0 40px;
+    flex-direction: colum;
+    font-size: 1rem;
+    text-align: left;
+    p {
+      letter-spacing: -0.6px;
+    }
+  }
+  &:hover {
+    border: 2px solid #ffffff;
+    border-radius: 6%;
+    transition-duration: 1.5s;
+    transform: scale(1.1);
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .project-item {
+    .subtitle {
+      padding: 0;
+    }
+  }
+}
+@media only screen and (max-width: 414px) {
+  .project-item {
+    padding: 8px 0;
+    .subtitle {
+      padding: 0 40px;
+    }
+    .img-box {
+      img {
+        width: 90%;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  .project-item {
+    .subtitle {
+      padding: 0;
+    }
+  }
+}

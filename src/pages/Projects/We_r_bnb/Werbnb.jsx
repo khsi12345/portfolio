@@ -18,13 +18,6 @@ const WeRBnb = () => {
   return (
     <Layout>
       <div className="we_r_bnb">
-        <header className="head">
-          WE_R_BNB
-          <div className="subtitle">
-            <p>여행지에서 머무를</p>
-            <p>좋은 숙소를 소개해주는 프로젝트</p>
-          </div>
-        </header>
         <p className="skills">
           github: &nbsp;
           <a
@@ -44,34 +37,40 @@ const WeRBnb = () => {
           <LazyLoad>
             <div className="img1">
               <img alt="스테이폴리오 메인 페이지" src={img1}></img>
+              <p className="img-description">메인 페이지</p>
             </div>
           </LazyLoad>
           <LazyLoad>
             <div className="img2">
               <img alt="스테이폴리오 매거진 페이지" src={img2}></img>
+              <p className="img-description">매거진 페이지</p>
             </div>
           </LazyLoad>
           <LazyLoad>
             <div className="img3">
               <img alt="스테이폴리오 어바웃 페이지" src={img3}></img>
+              <p className="img-description">어바웃 페이지</p>
             </div>
           </LazyLoad>
           <LazyLoad>
             <div className="img4">
               <img alt="스테이폴리오 픽 페이지" src={img4}></img>
+              <p className="img-description">숙소들을 보여주는 페이지</p>
             </div>
           </LazyLoad>
           <LazyLoad>
             <div className="img5">
               <img alt="스테이폴리오 픽 디테일 페이지" src={img5}></img>
+              <p className="img-description">숙소의 상세 페이지 </p>
             </div>
           </LazyLoad>
           <LazyLoad>
             <div className="img10">
               <img alt="스테이폴리오 부킹 페이지" src={img10}></img>
+              <p className="img-description">숙소 예약 페이지</p>
             </div>
           </LazyLoad>
-          <div className="flex_box">
+          {/* <div className="flex_box">
             <LazyLoad>
               <div className="img8">
                 <img alt="스테이폴리오 픽 페이지 반응형" src={img8}></img>
@@ -100,7 +99,7 @@ const WeRBnb = () => {
                 <img alt="스테이폴리오 메인 페이지 반응형" src={img6}></img>
               </div>
             </LazyLoad>
-          </div>
+          </div> */}
         </main>
         <LazyLoad>
           <video controls>

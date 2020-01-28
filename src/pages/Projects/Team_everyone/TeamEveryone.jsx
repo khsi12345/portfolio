@@ -14,13 +14,6 @@ const TeamEvery = () => {
   return (
     <Layout>
       <div className="team_every">
-        <header className="head">
-          TEAM_EVERYWHERE
-          <div className="subtitle">
-            <p>어드민 페이지</p>
-            <p>외주 프로젝트</p>
-          </div>
-        </header>
         <p className="skills">
           REACT, NEXT.JS, SASS, RESPONSIVE WEB, HIGHCHARTS, IAMPORT
         </p>
@@ -28,36 +21,43 @@ const TeamEvery = () => {
           <LazyLoad>
             <div className="img5">
               <img alt="웜 로그인 페이지" src={img5}></img>
+              <p className="img-description">로그인 페이지</p>
             </div>
           </LazyLoad>
           <LazyLoad>
             <div className="img8">
               <img alt="웜 캠페인 페이지" src={img8}></img>
+              <p className="img-description">캠페인 페이지</p>
             </div>
           </LazyLoad>
           <LazyLoad>
             <div className="img4">
               <img alt="웜 어드민 페이지" src={img4}></img>
+              <p className="img-description">어드민 페이지</p>
             </div>
           </LazyLoad>
           <LazyLoad>
             <div className="img6">
               <img alt="웜 디스커버 페이지" src={img6}></img>
+              <p className="img-description">디스커버 페이지</p>
             </div>
           </LazyLoad>
           <LazyLoad>
             <div className="img1">
               <img alt="팀 에브리웨어 대시보드 페이지" src={img1}></img>
+              <p className="img-description">유저 대시보드 페이지</p>
             </div>
           </LazyLoad>
           <LazyLoad>
             <div className="img2">
               <img alt="팀 에브리웨어 프로필 페이지" src={img2}></img>
+              <p className="img-description">유저 프로필 페이지</p>
             </div>
           </LazyLoad>
           <LazyLoad>
             <div className="img3">
               <img alt="팀 에브리웨어 결제 페이지" src={img3}></img>
+              <p className="img-description">상품 결제 화면</p>
             </div>
           </LazyLoad>
         </main>

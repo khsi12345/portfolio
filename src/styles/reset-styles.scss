@@ -91,6 +91,15 @@ a {
   letter-spacing: 1px;
   // text-decoration: none;
 }
+canvas {
+  // z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sketch {
+  height: 100% !important;
+}
 // ​ * {
 //   box-sizing: border-box;
 //   text-decoration: none;

@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import LazyLoad from "react-lazyload";
+// import Sketch from "../../../../public/sketch.js/index.js";
 import Layout from "components/Layout";
 import img1 from "images/망플메인.png";
 import img2 from "images/메인반응.png";
@@ -10,16 +11,12 @@ import img6 from "images/디테일반응2.png";
 import "styles/weplate.scss";
 
 const Weplate = () => {
+  // useEffect(() => {
+  //   // Sketch.create({});
+  // }, []);
   return (
     <Layout>
       <div className="weplate">
-        <header className="head">
-          WEPLATE
-          <div className="subtitle">
-            <p>맛집을 찾아야 하는 시간을 줄이고</p>
-            <p>믿을만한 맛집을 소개해주는 프로젝트</p>
-          </div>
-        </header>
         <p className="skills">
           github: &nbsp;
           <a
@@ -38,19 +35,22 @@ const Weplate = () => {
           <LazyLoad>
             <div className="img1">
               <img alt="망고플레이트 메인 페이지" src={img1}></img>
+              <p className="img-description">메인 페이지</p>
             </div>
           </LazyLoad>
           <LazyLoad>
             <div className="img3">
               <img alt="망고플레이트 디테일 페이지 상단 화면" src={img3}></img>
+              <p className="img-description">상세 페이지 화면 상단 부분</p>
             </div>
           </LazyLoad>
           <LazyLoad>
             <div className="img5">
               <img alt="망고플레이트 디테일 페이지 하단 화면" src={img5}></img>
+              <p className="img-description">상세 페이지 화면 하단 부분</p>
             </div>
           </LazyLoad>
-          <div className="flex_box">
+          {/* <div className="flex_box">
             <LazyLoad>
               <div className="img2">
                 <img alt="망고플레이트 메인 페이지 반응형" src={img2}></img>
@@ -72,7 +72,7 @@ const Weplate = () => {
                 ></img>
               </div>
             </LazyLoad>
-          </div>
+          </div> */}
         </main>
         <LazyLoad>
           <video controls>

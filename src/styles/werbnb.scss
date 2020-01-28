@@ -1,12 +1,18 @@
 .we_r_bnb {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
   color: #ffffff;
   .head {
     display: flex;
+    flex-direction: initial;
     justify-content: flex-end;
     padding: 140px 130px 0;
     margin-bottom: 100px;
   }
   .subtitle {
+    display: flex;
+    flex-direction: column;
     padding-left: 30%;
     font-size: 18px;
     text-align: left;
@@ -72,6 +78,9 @@
     .img11 {
       padding-bottom: 80px;
     }
+    .img-description {
+      margin-top: 10px;
+    }
   }
   .flex_box {
     display: flex;
@@ -85,6 +94,7 @@
   }
   .skills {
     margin-top: 100px;
+    padding: 0 16%;
     padding-bottom: 40px;
     text-align: center;
     font-size: 24px;

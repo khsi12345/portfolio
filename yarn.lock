@@ -2660,6 +2660,13 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classes-component@*:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/classes-component/-/classes-component-1.1.3.tgz#5445e4c83322435b7307812f441c8ba775ce3976"
+  integrity sha1-VEXkyDMiQ1tzB4EvRByLp3XOOXY=
+  dependencies:
+    indexof-component component/indexof#0.0.1
+
 clean-css@4.2.x:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.2.1.tgz#2d411ef76b8569b6d0c84068dabe85b0aa5e5c17"
@@ -3436,6 +3443,14 @@ delayed-stream@~1.0.0:
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
 
+delegate-component@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/delegate-component/-/delegate-component-0.1.0.tgz#7bb383b0a851efbaaee7f9885f27f0ca3aaccb23"
+  integrity sha1-e7ODsKhR77qu5/mIXyfwyjqsyyM=
+  dependencies:
+    event-component "*"
+    matches-selector-2 "0.1.0"
+
 delegates@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
@@ -4024,10 +4039,23 @@ etag@~1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
+event-component@*, event-component@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/event-component/-/event-component-0.1.0.tgz#80455579d134ab27e3bb80bb2869bf96a76e9e68"
+  integrity sha1-gEVVedE0qyfju4C7KGm/lqdunmg=
+
 eventemitter3@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.0.tgz#d65176163887ee59f386d64c82610b696a4a74eb"
   integrity sha512-qerSRB0p+UDEssxTtm6EDKcE7W4OaoisfIMl4CngyEhjpYglocpNg6UEqCvemdGhosAsg4sO2dXJOdyBifPGCg==
+
+events-component-2@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/events-component-2/-/events-component-2-1.0.4.tgz#7aeca06f587c93b9efd856af753df5b6c38052e8"
+  integrity sha1-euygb1h8k7nv2FavdT31tsOAUug=
+  dependencies:
+    delegate-component "0.1.0"
+    event-component "0.1.0"
 
 events@^3.0.0:
   version "3.0.0"
@@ -5190,6 +5218,10 @@ indexes-of@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/indexes-of/-/indexes-of-1.0.1.tgz#f30f716c8e2bd346c7b67d3df3915566a7c05607"
   integrity sha1-8w9xbI4r00bHtn0985FVZqfAVgc=
+
+indexof-component@component/indexof#0.0.1:
+  version "0.0.1"
+  resolved "https://codeload.github.com/component/indexof/tar.gz/a3ef9ccef2b705f9688db5115c6698ab6ea49b98"
 
 infer-owner@^1.0.3, infer-owner@^1.0.4:
   version "1.0.4"
@@ -6546,6 +6578,13 @@ map-visit@^1.0.0:
   integrity sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=
   dependencies:
     object-visit "^1.0.0"
+
+matches-selector-2@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/matches-selector-2/-/matches-selector-2-0.1.0.tgz#1c5803a95d8f18ce30f34569e9fd75f969160b43"
+  integrity sha1-HFgDqV2PGM4w80Vp6f11+WkWC0M=
+  dependencies:
+    query-component "*"
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -8621,6 +8660,11 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
+query-component@*:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/query-component/-/query-component-0.0.1.tgz#c95975a6d2c7417673e551f2c14f12496cba4c27"
+  integrity sha1-yVl1ptLHQXZz5VHywU8SSWy6TCc=
+
 query-string@^4.1.0:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-4.3.4.tgz#bbb693b9ca915c232515b228b1a02b609043dbeb"
@@ -8643,6 +8687,11 @@ querystringify@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
   integrity sha512-w7fLxIRCRT7U8Qu53jQnJyPkYZIaR4n5151KMfcJlO/A9397Wxb1amJvROTK6TOnp7PfoAmg/qXiNHI+08jRfA==
+
+raf-component@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/raf-component/-/raf-component-1.1.1.tgz#8e2e1ab2aafeaae959474d0aad3cdd6a08d806d8"
+  integrity sha1-ji4asqr+qulZR00KrTzdagjYBtg=
 
 raf@^3.4.1:
   version "3.4.1"
@@ -9583,6 +9632,15 @@ sisteransi@^1.0.3:
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.4.tgz#386713f1ef688c7c0304dc4c0632898941cad2e3"
   integrity sha512-/ekMoM4NJ59ivGSfKapeG+FWtrmWvA1p6FBZwXrqojw90vJu8lBmrTxCMuBCydKtkaUe2zt4PlxeTKpjwMbyig==
 
+sketch@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/sketch/-/sketch-0.2.0.tgz#f8e2ee0bc8982fa2f9728fef8ad4112152f5037b"
+  integrity sha1-+OLuC8iYL6L5co/vitQRIVL1A3s=
+  dependencies:
+    classes-component "*"
+    events-component-2 "1.0.4"
+    raf-component "1.1.1"
+
 slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
@@ -10420,6 +10478,14 @@ uglify-js@^3.1.4:
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.7.1.tgz#35c7de17971a4aa7689cd2eae0a5b39bb838c0c5"
   integrity sha512-pnOF7jY82wdIhATVn87uUY/FHU+MDUdPLkmGFvGoclQmeu229eTkbG5gjGGBi3R7UuYYSEeYXY/TTY5j2aym2g==
+  dependencies:
+    commander "~2.20.3"
+    source-map "~0.6.1"
+
+uglify-js@^3.7.6:
+  version "3.7.6"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.7.6.tgz#0783daa867d4bc962a37cc92f67f6e3238c47485"
+  integrity sha512-yYqjArOYSxvqeeiYH2VGjZOqq6SVmhxzaPjJC1W2F9e+bqvFL9QXQ2osQuKUFjM2hGjKG2YclQnRKWQSt/nOTQ==
   dependencies:
     commander "~2.20.3"
     source-map "~0.6.1"

@@ -1,6 +1,8 @@
 .lay {
+  display: flex;
+  justify-content: center;
   height: 100%;
-  z-index: -999;
+  z-index: 10000;
   color: #b0bec5;
   font-weight: 100;
 }

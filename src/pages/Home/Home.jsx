@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// import Sketch from "../../../public/sketch.js/index.js";
 import Layout from "components/Layout";
 import "styles/index.scss";
 
 const Home = props => {
   return (
     <Layout>
-      <div className="home">
+      <div className="home" id="home">
         <div className="content_wrap">
           <div className="title wrap">
             <header>양성호 닷컴</header>
